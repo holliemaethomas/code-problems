@@ -105,8 +105,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-  var firstStep = multiply(testArray[0], testArray[1])[0];
-  var secondStep = multiply(firstStep, testArray[2])[0];
+  var doThisFirst = multiply(testArray[0], testArray[1])[0];
+  var secondStep = multiply(doThisFirst, testArray[2])[0];
   var secondElement = 'The numbers ' + testArray[0] + ',' + testArray[1] + ',' + testArray[2] + ' have a product of ' + secondStep + '.';
   return [secondStep, secondElement];
 }
